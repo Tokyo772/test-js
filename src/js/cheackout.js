@@ -15,5 +15,5 @@ selectors.list.insertAdjacentHTML('beforeend', createMarkup(products));
 selectors.bnt.addEventListener('click', handlerClear);
 function handlerClear(evt) {
   localStorage.removeItem(common.LS_PRODUCTS);
-  window.location.href = '../index.html';
+  window.location.href = './index.html';
 }
